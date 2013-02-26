@@ -9,9 +9,11 @@ This is the documentation for the EBOSS REST API. The API allows EBOSS suppliers
 
 Authors
 -------
-Tim Klein, Dodat Ltd., tim[at]dodat[dot]co[dot]nz.
-David Craig, david[at]davidcraig[dot]co[dot]nz.
-Cam Findlay, Cam FIndlay Consulting, info[at]camfindlay[dot]com.
+Tim Klein, Dodat Ltd., tim[at]dodat[dot]co[dot]nz
+
+David Craig, david[at]davidcraig[dot]co[dot]nz
+
+Cam Findlay, Cam FIndlay Consulting, info[at]camfindlay[dot]com
 
 
 License
@@ -65,36 +67,42 @@ Core Objects and API Endpoints
 ------------------------------
 
 **Brand**
+
 Returns brand information associated with certain BRANDID.
 
 http://www.eboss.co.nz/api/v2/Brand?BrandID=BRANDID
 
 
 **Categories**
+
 Returns list of products for BRANDID.
 
 http://www.eboss.co.nz/api/v2/Categories?BrandID=BRANDID
 
 
 **Category**
+
 Returns details about CATEGORYID with respect to the BRANDID scope.
 
 http://www.eboss.co.nz/api/v2/Category?BrandID=BRANDID&CategoryID=CATEGORYID
 
 
 **Ranges**
+
 Returns list of ranges associated with BRANDID scope.
 
 http://www.eboss.co.nz/api/v2/Ranges?BrandID=BRANDID
 
 
 **Range**
+
 Returns details about RANGEID associated with BRANDID scope.
 
 http://www.eboss.co.nz/api/v2/Range?BrandID=BRANDID&RangeID=RANGEID
 
 
 **Products**
+
 Returns list of products from BRANDID scope.
 
 http://www.eboss.co.nz/api/v2/Products?BrandID=BRANDID
@@ -111,6 +119,7 @@ http://www.eboss.co.nz/api/v2/Products?BrandID=BRANDID&CategoryID=CATEGORYID&Ran
 
 
 **Product**
+
 Returns individual product data with PRODUCTID and associated details from BRANDID.
 
 http://www.eboss.co.nz/api/v2/Product?BrandID=BRANDID&ProductID=PRODUCTID
