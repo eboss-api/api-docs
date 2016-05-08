@@ -11,16 +11,12 @@ Authors
 -------
 Tim Klein, Dodat Ltd., tim[at]dodat[dot]co[dot]nz
 
-David Craig, david[at]davidcraig[dot]co[dot]nz
-
-Cam Findlay, Cam FIndlay Consulting, info[at]camfindlay[dot]com
-
 
 License
 -------
 This wrapper is released under the MIT License.
 
-Copyright (c) 2013 EBOSS. Copyright (c) 2013 Dodat Ltd.
+Copyright (c) 2016 EBOSS. Copyright (c) 2016 Dodat Ltd.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
@@ -33,7 +29,7 @@ Authentication
 --------------
 To access the API you need to provide authentication via HTTP Auth.
 
-Please [contact EBOSS](http://www.eboss.co.nz/contact) if you are an EBOSS supplier and would like access to the API.
+Please [contact EBOSS](https://www.eboss.co.nz/contact) if you are an EBOSS supplier and would like access to the API.
 
 Once approved, EBOSS will supply you with an api username, api key, and brand id number.
 
@@ -53,7 +49,7 @@ Please consider open sourcing and contributing your code back to the EBOSS API r
 
 API Endpoint
 ------------
-Please use http://www.eboss.co.nz/api/v2/ as the API endpoint.
+Please use https://www.eboss.co.nz/api/v2/ as the API endpoint.
 
 This requires HTTP Auth to access passing in the api username and api key credentials provided.
 
@@ -70,42 +66,42 @@ Core Objects and API Endpoints
 
 Returns brand information associated with certain BRANDID.
 
-http://www.eboss.co.nz/api/v2/Brand?BrandID=BRANDID
+https://www.eboss.co.nz/api/v2/Brand?BrandID=BRANDID
 
 
 **Categories**
 
 Returns list of products for BRANDID.
 
-http://www.eboss.co.nz/api/v2/Categories?BrandID=BRANDID
+https://www.eboss.co.nz/api/v2/Categories?BrandID=BRANDID
 
 
 **Category**
 
 Returns details about CATEGORYID with respect to the BRANDID scope.
 
-http://www.eboss.co.nz/api/v2/Category?BrandID=BRANDID&CategoryID=CATEGORYID
+https://www.eboss.co.nz/api/v2/Category?BrandID=BRANDID&CategoryID=CATEGORYID
 
 
 **Ranges**
 
 Returns list of ranges associated with BRANDID scope.
 
-http://www.eboss.co.nz/api/v2/Ranges?BrandID=BRANDID
+https://www.eboss.co.nz/api/v2/Ranges?BrandID=BRANDID
 
 
 **Range**
 
 Returns details about RANGEID associated with BRANDID scope.
 
-http://www.eboss.co.nz/api/v2/Range?BrandID=BRANDID&RangeID=RANGEID
+https://www.eboss.co.nz/api/v2/Range?BrandID=BRANDID&RangeID=RANGEID
 
 
 **Products**
 
 Returns list of products from BRANDID scope.
 
-http://www.eboss.co.nz/api/v2/Products?BrandID=BRANDID
+https://www.eboss.co.nz/api/v2/Products?BrandID=BRANDID
 
 Also allows optional filters to be added:
 
@@ -115,12 +111,12 @@ RangeID - RANGEID, which returns all products within a range.
 
 Example:
 
-http://www.eboss.co.nz/api/v2/Products?BrandID=BRANDID&CategoryID=CATEGORYID&RangeID=RANGEID
+https://www.eboss.co.nz/api/v2/Products?BrandID=BRANDID&CategoryID=CATEGORYID&RangeID=RANGEID
 
 
 **Product**
 
 Returns individual product data with PRODUCTID and associated details from BRANDID.
 
-http://www.eboss.co.nz/api/v2/Product?BrandID=BRANDID&ProductID=PRODUCTID
+https://www.eboss.co.nz/api/v2/Product?BrandID=BRANDID&ProductID=PRODUCTID
 
